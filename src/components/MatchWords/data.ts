@@ -1,0 +1,42 @@
+import { shuffle } from "./utils";
+
+export const DATA_BASE = [
+  { question: "そ", answer: "so" },
+  { question: "く", answer: "ku" },
+  { question: "み", answer: "mi" },
+  { question: "え", answer: "e" },
+  { question: "た", answer: "ta" },
+  { question: "ね", answer: "ne" },
+  { question: "あ", answer: "a" },
+  { question: "も", answer: "mo" },
+  { question: "ひ", answer: "hi" },
+  { question: "ゆ", answer: "yu" },
+  { question: "り", answer: "ri" },
+  { question: "ち", answer: "chi" },
+  { question: "せ", answer: "se" },
+  { question: "う", answer: "u" },
+  { question: "け", answer: "ke" },
+  { question: "さ", answer: "sa" },
+  { question: "ふ", answer: "fu" },
+  { question: "に", answer: "ni" },
+  { question: "か", answer: "ka" },
+  { question: "つ", answer: "tsu" },
+  { question: "の", answer: "no" },
+  { question: "む", answer: "mu" },
+  { question: "お", answer: "o" },
+  { question: "き", answer: "ki" },
+  { question: "ぬ", answer: "nu" },
+  { question: "は", answer: "ha" },
+  { question: "や", answer: "ya" },
+  { question: "ろ", answer: "ro" },
+  { question: "と", answer: "to" },
+  { question: "い", answer: "i" },
+  { question: "す", answer: "su" },
+  { question: "め", answer: "me" },
+  { question: "ほ", answer: "ho" },
+  { question: "わ", answer: "wa" },
+  { question: "て", answer: "te" },
+  { question: "ま", answer: "ma" }
+];
+
+export const DATA = shuffle(DATA_BASE)
